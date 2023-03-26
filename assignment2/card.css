@@ -1,0 +1,72 @@
+body{
+    background-color: gray;
+}
+.card{
+    width: 310px;
+    height: 460px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+}
+.img-div img{
+    width: 140px;
+    height: 140px;
+    border-radius: 46%;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.img-div{
+    background-color: blue;
+    height: 190px;
+}
+.card p{
+    font-size: 17px;
+    color: rgb(66, 45, 5);
+
+}
+.card .button{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(110, 13, 221);
+    border-radius: 4px;
+    color: azure;
+    font-size: 25px;
+    border: none;
+}
+.icon{
+    font-size: 35px;
+    margin: 15px;
+}
+.icon i{
+    margin-inline: 10px;
+}
+.icon span{
+    background-color: blue;
+    border-radius: 40px;
+}
+.icon .twitter{
+    background-color: rgb(43, 153, 226);
+}
+.icon .facebook{
+    background-color: rgb(185, 19, 130);
+}
+.icon .google{
+    background-color: rgb(43, 226, 186);
+}
+.icon .youtube{
+    background-color: rgb(231, 37, 12);
+}
+
+.icon a:hover{
+background-color: rgb(4, 14, 14);
+border-radius: 40px;
+}
+.button:hover{
+    background-color: red;
+}
